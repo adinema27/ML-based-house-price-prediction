@@ -1,4 +1,4 @@
-#House Price Prediction Web Application
+**House Price Prediction Web Application**
 
 #Author: Aditya Nema
 
@@ -24,7 +24,7 @@ A linear regression model was used due to its simplicity and effectiveness in pr
 The model was trained on 75% of the data, while the remaining 25% was used for testing to evaluate the model's performance.
 
 Contact
-For any queries, please feel free to contact Aditya Nema at adinema27@gmail.com.
+For any queries, please feel free to contact ** Aditya Nema** at adinema27@gmail.com.
 
 
 
