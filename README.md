@@ -7,9 +7,13 @@
 This project is a machine learning-based web application built with Flask that predicts house prices based on various input features like the number of bedrooms, bathrooms, floors, and the year of construction. The prediction model is pre-trained using a dataset and implemented with a linear regression algorithm.
 
 Project Structure
+
 index.html: This is the frontend of the application where users can input details such as the number of bedrooms, bathrooms, floors, and the year of build to predict the price of the house.
+
 app.py: The main Flask application file. It handles the routing of the web application, takes user input from the form, processes it, and displays the predicted house price.
+
 house.py: This script is responsible for training the machine learning model. It loads the dataset, performs data preprocessing, trains a linear regression model, and saves the trained model as a pickle file (model.pkl).
+
 model.pkl: The serialized machine learning model used for making predictions in the web application.
 
 
