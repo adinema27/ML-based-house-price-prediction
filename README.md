@@ -19,12 +19,16 @@ model.pkl: The serialized machine learning model used for making predictions in 
 
 How It Works
 User Input: The user inputs the number of bedrooms, bathrooms, floors, and the year the house was built into the web form on the frontend (index.html).
+
 Prediction: Upon submission, the inputs are sent to the Flask server (app.py), where they are processed and passed to the pre-trained machine learning model (model.pkl).
+
 Output: The model predicts the house price, and the result is displayed back on the webpage.
 
 Model Training
 The model was trained using a dataset containing various features related to house pricing.
+
 A linear regression model was used due to its simplicity and effectiveness in predicting continuous values like house prices.
+
 The model was trained on 75% of the data, while the remaining 25% was used for testing to evaluate the model's performance.
 
 Contact
